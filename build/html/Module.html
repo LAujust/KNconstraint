@@ -84,8 +84,18 @@
 <code class="docutils literal notranslate"><span class="pre">Dietrich</span> <span class="pre">el</span> <span class="pre">at</span></code>, and BNS model by <code class="docutils literal notranslate"><span class="pre">Bulla</span></code>. For flexibility, I will upgrade a surrogate model by myself and
 a training module that could fit any model you input.</p>
 <p>After definition of KN model, you and inject parameter ranges and an event.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">file_name</span> <span class="o">=</span> <span class="s1">&#39;/home/Aujust/data/Kilonova/possis/Model Constraints/ZTF_fields_LALInf_S200105ae.dat&#39;</span>
+<span class="n">A</span> <span class="o">=</span> <span class="n">model_constraint</span><span class="p">(</span><span class="n">file_name</span><span class="p">,</span><span class="s1">&#39;deepest&#39;</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="n">id_list</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">])</span>
+</pre></div>
+</div>
 <p>with <code class="docutils literal notranslate"><span class="pre">deepest</span></code> mode and seperate observations to 5 clusters using K-means, and <code class="docutils literal notranslate"><span class="pre">filter_ID_list</span></code> is 1 and 2.</p>
 <p>Then constraint model parameters and plot.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">A</span><span class="o">.</span><span class="n">add_params</span><span class="p">(</span><span class="n">params</span><span class="p">)</span>
+<span class="n">A</span><span class="o">.</span><span class="n">constraint</span><span class="p">()</span>
+<span class="n">A</span><span class="o">.</span><span class="n">plot_params</span><span class="p">()</span>
+<span class="n">A</span><span class="o">.</span><span class="n">plot_lc</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+</div>
 <img alt="_images/lc_S200105ae_g_deepest_0.0.jpg" src="_images/lc_S200105ae_g_deepest_0.0.jpg" />
 <img alt="_images/param_S200105ae_deepest.jpg" src="_images/param_S200105ae_deepest.jpg" />
 </div>

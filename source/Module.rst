@@ -18,7 +18,7 @@ a training module that could fit any model you input.
 
 After definition of KN model, you and inject parameter ranges and an event.
 
-.. code-block::python
+.. code-block::
 
     file_name = '/home/Aujust/data/Kilonova/possis/Model Constraints/ZTF_fields_LALInf_S200105ae.dat'
     A = model_constraint(file_name,'deepest',5,id_list=[1,2])
@@ -27,7 +27,7 @@ with ``deepest`` mode and seperate observations to 5 clusters using K-means, and
 
 Then constraint model parameters and plot.
 
-.. code-block::python
+.. code-block::
 
     A.add_params(params)
     A.constraint()

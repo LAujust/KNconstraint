@@ -38,7 +38,10 @@
 <li class="toctree-l1"><a class="reference internal" href="Introduction.html">Introduction</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Module</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#model">Model</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#constraint">Constraint</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#constraint">Constraint</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#model-constraint">Model Constraint</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -74,6 +77,18 @@
 </div>
 <div class="section" id="constraint">
 <h2>Constraint<a class="headerlink" href="#constraint" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="model-constraint">
+<h3>Model Constraint<a class="headerlink" href="#model-constraint" title="Permalink to this headline">¶</a></h3>
+<p>This module provide a KN parameter constraints without EM conterpart detection but upper limit.</p>
+<p>Before you start, you should define model you use in the module. For instance, default model is BHNS model by
+<code class="docutils literal notranslate"><span class="pre">Dietrich</span> <span class="pre">el</span> <span class="pre">at</span></code>, and BNS model by <code class="docutils literal notranslate"><span class="pre">Bulla</span></code>. For flexibility, I will upgrade a surrogate model by myself and
+a training module that could fit any model you input.</p>
+<p>After definition of KN model, you and inject parameter ranges and an event.</p>
+<p>with <code class="docutils literal notranslate"><span class="pre">deepest</span></code> mode and seperate observations to 5 clusters using K-means, and <code class="docutils literal notranslate"><span class="pre">filter_ID_list</span></code> is 1 and 2.</p>
+<p>Then constraint model parameters and plot.</p>
+<img alt="_images/lc_S200105ae_g_deepest_0.0.jpg" src="_images/lc_S200105ae_g_deepest_0.0.jpg" />
+<img alt="_images/param_S200105ae_deepest.jpg" src="_images/param_S200105ae_deepest.jpg" />
+</div>
 </div>
 </div>
 

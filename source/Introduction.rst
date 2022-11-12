@@ -8,6 +8,19 @@ and for the absence of detection with upper limit given, model constraint would 
 Quick Start
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Installation
+-------------------------
+
+Not updated.
+
+Dependencies:
+# ``numpy``
+# ``astropy``
+# ``pandas``
+# ``matplotlib``
+# ``kilonovanet``(currently used, and might be displaced)
+# ``simsurvey``
+
 Push Changes
 --------------------------
 
@@ -17,12 +30,5 @@ After coding and editing files in repositery on local, commit changes and push t
 
     make html
     git add .
-    git commit -m "changes"
+    git commit -m "comment"
     git push
-
-code ::
-
-    make html
-    git add .
-    git commit -m "changes"
-    git push  

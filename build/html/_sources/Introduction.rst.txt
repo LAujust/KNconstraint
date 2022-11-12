@@ -7,3 +7,14 @@ and for the absence of detection with upper limit given, model constraint would 
 
 Quick Start
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Push Changes
+--------------------------
+
+After coding and editing files in repositery on local, commit changes and push to Github remote repositery.
+
+.. code-block:: sh
+    make html
+    git add .
+    git commit -m "changes"
+    git push

@@ -14,7 +14,15 @@ Push Changes
 After coding and editing files in repositery on local, commit changes and push to Github remote repositery.
 
 .. code-block:: sh
+
     make html
     git add .
     git commit -m "changes"
     git push
+
+code ::
+
+    make html
+    git add .
+    git commit -m "changes"
+    git push  

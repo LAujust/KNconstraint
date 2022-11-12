@@ -14,12 +14,13 @@ Installation
 Not updated.
 
 Dependencies:
-# ``numpy``
-# ``astropy``
-# ``pandas``
-# ``matplotlib``
-# ``kilonovanet``(currently used, and might be displaced)
-# ``simsurvey``
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+- ``numpy``
+- ``astropy``
+- ``pandas``
+- ``matplotlib``
+- ``kilonovanet`` (currently used, and might be displaced)
+- ``simsurvey``
 
 Push Changes
 --------------------------

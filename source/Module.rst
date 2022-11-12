@@ -13,7 +13,7 @@ Model Constraint
 This module provide a KN parameter constraints without EM conterpart detection but upper limit.
 
 Before you start, you should define model you use in the module. For instance, default model is BHNS model by
-``Dietrich el at``, and BNS model by ``Bulla``. For flexibility, I will upgrade a surrogate model by myself and 
+``Dietrich et al``, and BNS model by ``Bulla``. For flexibility, I will upgrade a surrogate model by myself and 
 a training module that could fit any model you input.
 
 After definition of KN model, you and inject parameter ranges and an event.
